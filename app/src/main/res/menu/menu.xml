@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/page_1"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_home_24"
+        android:title="Home"/>
+    <item
+        android:id="@+id/page_2"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_contact_mail_24"
+        android:title="Contact Us"/>
+
+    <item
+        android:id="@+id/page_3"
+        android:enabled="true"
+        android:icon="@drawable/ic_baseline_group_24"
+        android:title="About Us"/>
+    <item
+        android:id="@+id/page_5"
+        android:enabled="true"
+        android:icon="@drawable/ic_orders"
+        android:title="Orders"/>
+    <item
+        android:id="@+id/page_4"
+        android:enabled="true"
+        android:icon="@drawable/ic_courier"
+        android:title="Services"/>
+
+</menu>

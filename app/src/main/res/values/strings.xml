@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Benfalex Parcel Delivery</string>
+
+    <string-array name="services">
+        <item>---Select Service---</item>
+        <item>PACKAGE RECEIVING</item>
+        <item>PACKAGE PICKUP</item>
+        <item>PICKUP and DELIVER</item>
+        <item>PICKUP and PREP FOR SHIPMENT</item>
+    </string-array>
+
+    <dimen name="textsize">25dp</dimen>
+
+    <string name="service1">In recent years, the number of online parcel delivery has expanded tremendously. Growth in COVID-19 has been driven by high consumer demand and a growing variety of items offered online. To meet up with the high volumes of demands of the customers, most of the parcel and courier services have suffered unimaginable financial setbacks while leaving customers dissatisfied. Problems range from delayed parcel delivery, unattended parcel delivery, failed delivery attempts, lost or stolen parcels, and scammers sending suspecting messages to customers to defraud them. With our PACKAGE DELIVERY SERVICES, we provide the solution by preventing the theft of our customer’s packages and data protection from cyber criminals. We’ll pick-up your “delivered” packages, hold, and deliver them when you’re available.</string>
+    <string name="service2">For whilst you simply are unable to individually receive your deliveries, you have got a solution provider.  Our services include offering the best options to securely receive your pre-ordered packages after which time a private sustainable package delivery that is handy for our customers.</string>
+    <string name="service3">Considering that you want same-day delivery, our services put your needs first and we provide the solution for those bustling customers with special delivery services</string>
+    <string name="service4">Benfalex Package Delivery is also a mobile mailroom solution for small businesses that can’t facilitate the expenses of an in-house mailroom. We’ll pick-up, package/box, weigh, and label all your small items.*\n\n*Weight restrictions apply\n\nWhat We Do\n\n> Pickup and Deliver Only\n\n> Pickup and Drop To Shipper/Customer\n\n>Pickup, Package and Deliver To Shipper/Customer\n\n> Pickup, Box and Deliver To Shipper/Customer\n\n> Stamps and Label Services</string>
+    <string name="order_confirmation_text">We will contact with you on given Phone Number for the order confirmation, Hold on and if you want to track your order in future use this order ID to track your order status</string>
+
+    <string name="places_api_key">AIzaSyBLL2-trR47jE4hvOZijPDCwoi0yuH6H30</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

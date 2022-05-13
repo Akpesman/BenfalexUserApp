@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ServiceDetailedActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/title_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:background="@color/purple_700"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:text="Title"
+            android:padding="10dp"
+            ></TextView>
+
+        <TextView
+            android:id="@+id/desc_tv"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="17dp"
+            android:textColor="@color/black"
+            android:gravity="left"
+            android:text="Title"
+            android:padding="10dp"
+            ></TextView>
+
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/schedule_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Schedule a Service"
+        android:layout_marginTop="20dp"
+        android:paddingRight="20dp"
+        android:paddingLeft="20dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/purple_700"></Button>
+
+</RelativeLayout>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+
+    <LinearLayout
+        android:id="@+id/layout"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@drawable/banner"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/schedule_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:text="Schedule a Service "
+            android:drawableRight="@drawable/ic_arrow_forward_black_24dp"
+            android:background="@drawable/button_shape"
+            android:layout_gravity="center"></Button>
+
+
+
+
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/layout"
+        android:layout_above="@+id/bottom_navigation"
+        ></androidx.recyclerview.widget.RecyclerView>
+
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_navigation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        app:menu="@menu/menu" />
+
+
+
+</RelativeLayout>

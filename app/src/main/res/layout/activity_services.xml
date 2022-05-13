@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ServicesActivity">
+
+    <TextView
+        android:id="@+id/services"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Our Services"
+        android:background="@color/purple_700"
+        android:textColor="@color/white"
+        android:gravity="center_horizontal"
+        android:textSize="20dp"
+        android:padding="10dp"
+        ></TextView>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/schedule_btn"
+        android:layout_below="@+id/services">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/services"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/service1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal"
+                android:weightSum="10">
+
+
+                <ImageView
+                    android:id="@+id/plus1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/ic_baseline_add_24"></ImageView>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="8"
+                    android:text="PACKAGE RECEIVING"
+                    android:textStyle="bold"></TextView>
+
+                <ImageView
+                    android:id="@+id/arrowdown1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/ic_baseline_keyboard_arrow_down_24"></ImageView>
+
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:layout_below="@+id/service1"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@color/black"></View>
+
+            <TextView
+                android:id="@+id/desc_service1_tv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="10dp"
+                android:text="@string/service1"
+                android:visibility="gone">
+
+            </TextView>
+
+            <LinearLayout
+
+                android:id="@+id/service2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/service1"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal"
+                android:weightSum="10">
+
+                <ImageView
+                    android:id="@+id/plus2"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/ic_baseline_add_24"></ImageView>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="8"
+                    android:text="PACKAGE PICKUP"
+                    android:textStyle="bold"></TextView>
+
+                <ImageView
+                    android:id="@+id/arrowdown2"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/ic_baseline_keyboard_arrow_down_24"></ImageView>
+
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:layout_below="@+id/service2"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@color/black"></View>
+
+            <TextView
+                android:id="@+id/desc_service2_tv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="10dp"
+                android:text="@string/service2"
+                android:visibility="gone">
+
+            </TextView>
+
+
+            <LinearLayout
+
+                android:id="@+id/service3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal"
+                android:weightSum="10">
+
+                <ImageView
+                    android:id="@+id/plus3"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/ic_baseline_add_24"></ImageView>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="8"
+                    android:text="PICKUP and DELIVER"
+                    android:textStyle="bold"></TextView>
+
+                <ImageView
+                    android:id="@+id/arrowdown3"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/ic_baseline_keyboard_arrow_down_24"></ImageView>
+
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:layout_below="@+id/service2"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@color/black"></View>
+
+            <TextView
+                android:id="@+id/desc_service3_tv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="10dp"
+                android:text="@string/service3"
+                android:visibility="gone">
+
+            </TextView>
+
+
+            <LinearLayout
+
+                android:id="@+id/service4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal"
+                android:weightSum="10">
+
+                <ImageView
+                    android:id="@+id/plus4"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/ic_baseline_add_24"></ImageView>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="8"
+                    android:text="PICKUP and PREP FOR SHIPMENT"
+                    android:textStyle="bold"></TextView>
+
+                <ImageView
+                    android:id="@+id/arrowdown4"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:layout_weight="1"
+                    android:src="@drawable/ic_baseline_keyboard_arrow_down_24"></ImageView>
+
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:layout_below="@+id/service2"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:background="@color/black"></View>
+
+            <TextView
+                android:id="@+id/desc_service4_tv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="10dp"
+                android:text="@string/service4"
+                android:visibility="gone">
+
+            </TextView>
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+    <Button
+        android:id="@+id/schedule_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Schedule a Service"
+        android:layout_marginTop="20dp"
+        android:paddingRight="20dp"
+        android:paddingLeft="20dp"
+        android:layout_alignParentBottom="true"
+
+        android:background="@color/purple_700"></Button>
+
+</RelativeLayout>

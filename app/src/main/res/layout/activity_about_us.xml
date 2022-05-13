@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AboutUsActivity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center_horizontal"
+            android:src="@drawable/logo"
+            android:layout_marginTop="10dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Who We Are"
+            android:layout_gravity="center_horizontal"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:textColor="@color/purple_500"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="With the recent Covid-19 Pandemic ravaging the world, there is an unprecedented increased in online shopping and demand for quickest and safest parcel delivery at homes and offices. This has given rise to package theft, data privacy breach and loss of money from customers bank account from cyber criminals. Online retailers and customers on a large scale prefer using self-service parcel delivery as a solution to the best option for logistics dilemma. Benfalex Parcel Delivery is personal package collection to satisfy the consumer’s needs for self-service parcel delivery service and to protection them from online scammers using smishing to defraud customers. With our collection and delivery services the users will be able to have a courier deliver or pick up the parcels for them, they will have more control over parcel deliveries using the secured push notification and short message services interactive services for parcel delivery which is safe and fast."
+            android:layout_gravity="center_horizontal"
+            android:textSize="15dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+
+            >
+
+        </TextView>
+    </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

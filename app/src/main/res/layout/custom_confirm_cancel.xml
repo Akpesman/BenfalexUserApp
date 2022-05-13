@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/text_change"
+        android:text="Are You Sure you want to cancel this order?\n once cancelled you cannot undo it anyway"
+        android:gravity="center"
+        android:textColor="@color/black"
+        />
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:layout_marginTop="10dp"
+        android:weightSum="2">
+
+        <Button
+            android:id="@+id/btn_yes"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:backgroundTint="@color/green"
+            android:gravity="center"
+            android:text="Yes"
+            android:textAllCaps="false"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/btn_no"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:backgroundTint="@color/red"
+            android:text="No"
+            android:textColor="@color/white" />
+    </TableRow>
+
+</LinearLayout>
